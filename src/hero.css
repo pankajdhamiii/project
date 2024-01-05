@@ -1,0 +1,335 @@
+.herodiv{
+    width: 100%;;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.herodiv h3{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.herodiv h3 span{
+    color: #da8a23;
+    font-weight: bolder;
+}
+
+.herodiv .status{
+    width: 98%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0.5px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.herodiv .status .sta{
+    width: 35%;
+}
+
+.herodiv .status .sta h4{
+    font-size: 18px;
+}
+
+.herodiv .status .sta h5{
+    font-size: 15px;
+}
+
+.herodiv .status .sta .avg{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -5px #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.herodiv .status .sta .avg .clock{
+    font-size: 30px;
+}
+
+.herodiv .status .sta .avg .pie{
+    font-size: 30px;
+}
+
+.herodiv .status .timing{
+    width: 25%;
+    text-align: center;
+}
+
+.herodiv .status .timing h4{
+    font-size: 18px;
+}
+
+.herodiv .status .timing .days{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.herodiv .status .timing .days h5{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.herodiv .status .timing .tmng{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -5px #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.herodiv .status .timing .tmng h5{
+    font-size: 15px;
+}
+
+.herodiv .status .action{
+    width: 35%;
+    text-align: center;
+}
+
+.herodiv .status .action h4{
+    font-size: 18px;
+}
+
+.herodiv .status .action .twodivs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.herodiv .status .action .twodivs .tim{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 5px 5px 15px -5px #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 8px 0;
+}
+
+.herodiv .status .action .twodivs .tim h4{
+    font-size: 30px;
+}
+
+.herodiv .status .action .twodivs .tim h5{
+    font-size: 15px;
+}
+
+.herodiv .status .action .twodivs .request{
+    width: 45%;
+    margin-top: 30px;
+}
+
+.herodiv .status .action .twodivs .request h4{
+    background: #da8a23;
+    padding: 10px 5px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.herodiv .log{
+    padding: 5px;
+}
+
+.herodiv .attendance{
+    width: 25%;
+    padding: 7px 0px 6px 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 15px;
+    background: #da8a23;
+}
+
+.herodiv .attendance span{
+    background: #000;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.herodiv .timetable{
+    width: 98%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.herodiv .timetable .divs1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+    border-bottom: 1px solid white;
+}
+
+.herodiv .timetable .divs1 h4{
+    width: 15%;
+    font-size: 16px;
+}
+
+.herodiv .timetable .divs1 .icon{
+    width: 10%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px 0px;
+}
+
+.herodiv .timetable .divs1 .one{
+    width: 65%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.herodiv .timetable .divs1 .one h5{
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.herodiv .timetable .divs1 .one h5:nth-child(1){
+    background: #da8a23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herodiv .timetable .divs2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    border-bottom: 1px solid white;
+}
+
+.herodiv .timetable .divs2 h5{
+    font-size: 15px;
+}
+
+.herodiv .timetable .divs3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px 5px 25px;
+    border-bottom: 1px solid white;
+}
+
+.herodiv .timetable .divs3 h5{
+    font-size: 15px;
+}
+
+.herodiv .timetable .divs3 .bar{
+    font-size: 30px;
+}
+
+.herodiv .timetable .divs3 .effect{
+    display: flex;
+    gap: 10px;
+    padding-left: 80px;
+}
+
+.herodiv .timetable .divs4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px 5px 25px;
+    border-bottom: 1px solid white;
+}
+
+.herodiv .timetable .divs4 h5{
+    font-size: 15px;
+}
+
+.herodiv .timetable .divs4 h5 span{
+    background: #da8a23;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.herodiv .timetable .divs4 .week{
+    width: 80%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.herodiv .timetable .divs5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px 5px 25px;
+    background: #5b2121;
+}
+
+.herodiv .timetable .divs5 h5{
+    font-size: 15px;
+    background: #5b2121;
+}
+
+.herodiv .timetable .divs5 h5 span{
+    background: #da23a9;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.herodiv .timetable .divs5 .sick{
+    width: 80%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
